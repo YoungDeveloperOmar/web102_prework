@@ -24,8 +24,8 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-
-<img src='https://imgur.com/a/RLVugvj' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Imgur Video (Better Quality)](https://imgur.com/a/RLVugvj)
+<img src='https://imgur.com/a/qJkrF6J' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
