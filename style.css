@@ -6,21 +6,48 @@ body {
 }
 
 #tentacles {
-    width: 50px;
+    width: 3rem;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
     background-color: lightblue;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    height: 2rem;
+}
+
+.header-text{
+    font-size: 1.5rem;
+}
+
+.navigation{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:black
+}
+
+.navigation:hover{
+    scale: 1.05;
+    color: blue;
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.navigation-left{
+    display: flex;
+    align-items: center;
 }
 
 .stats-container {
     display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -60,6 +87,9 @@ body {
 .game-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
+    scale: 1.05;
+    transition: all;
+    transition-duration: 200ms;
 }
 
 #button-container {
@@ -72,4 +102,17 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#unfunded-btn, #funded-btn, #all-btn{
+    cursor: pointer;
+}
+
+#unfunded-btn:hover, #funded-btn:hover, #all-btn:hover{
+    scale: 1.05;
+    background-color: blue;
+    color: white;
+    opacity: 0.6;
+    transition: all;
+    transition-duration: 200ms;
 }
